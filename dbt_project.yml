@@ -36,7 +36,7 @@ models:
     +materialized: table
     datalake: 
       +materialized: table
-      +schema: datalake
+      +schema: datalake 
     consumption:
       +materialized: table
       +schema: consumption
