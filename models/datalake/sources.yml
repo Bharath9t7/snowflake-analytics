@@ -2,6 +2,7 @@ version: 2
 
 sources:
   - name: airbnb
+    database: airbnb
     schema: raw
     tables:
       - name: raw_listings
