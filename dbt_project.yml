@@ -34,9 +34,12 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   snowflake_analytics:
     +materialized: table
+    +transient: False
+    
     datalake: 
       +materialized: table
       +schema: datalake 
+
     consumption:
       +materialized: table
       +schema: consumption
