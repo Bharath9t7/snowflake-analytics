@@ -1,3 +1,4 @@
+-- scd type-2 for listings
 {% snapshot scd_raw_listings %}
 
     {{
